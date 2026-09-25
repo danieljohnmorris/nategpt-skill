@@ -2,7 +2,7 @@
 
 An opt-in agent workflow for substantial builds with independent work packages: **Astra plans**, a **persistent Luna coordinator** executes, and **fresh Astra workers** implement bounded packages. Coordination history stays on Luna; workers never inherit the full transcript.
 
-Inspired by [Nate Jones' tweet](https://x.com/natebjones/status/2100097467429904797).
+Inspired by [Nate B Jones' tweet](https://x.com/natebjones/status/2100097467429904797).
 
 ## Contents
 
