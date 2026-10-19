@@ -1,7 +1,7 @@
 ---
 name: nateclaude-coordinator
 description: Persistent Sonnet coordinator for nateclaude builds. Executes a Claude-authored handoff through fresh, bounded Claude workers.
-model: anthropic/claude-sonnet-5.5:medium, anthropic/claude-sonnet-5:medium
+model: anthropic/claude-opus-5.5:medium, anthropic/claude-opus-5:medium
 spawns: nateclaude-worker,nateclaude-bulldozer,scout
 ---
 

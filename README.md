@@ -9,7 +9,7 @@ Two variants ship from this repo. Same rules, different models.
 | Variant | Planner (Main) | Coordinator | Workers and bulldozer |
 | --- | --- | --- | --- |
 | `nategpt` | Astra | Luna, medium | Astra, high |
-| `nateclaude` | Claude Opus 5.5 | Sonnet 5.5, medium | Claude Opus 5.5, high |
+| `nateclaude` | Claude Opus 5.5 | Opus 5.5, medium | Claude Opus 5.5, high |
 
 ## Contents
 
@@ -20,7 +20,7 @@ Two variants ship from this repo. Same rules, different models.
 | `agents/nategpt-astra.md` | Fresh implementation worker (Astra, high) |
 | `agents/nategpt-bulldozer.md` | Bounded unblock / milestone reviewer (Astra, high) |
 | `nateclaude/SKILL.md` | nateclaude skill, the same rules on Anthropic models |
-| `nateclaude/agents/nateclaude-coordinator.md` | Persistent coordinator (Sonnet 5.5, medium) |
+| `nateclaude/agents/nateclaude-coordinator.md` | Persistent coordinator (Opus 5.5, medium) |
 | `nateclaude/agents/nateclaude-worker.md` | Fresh implementation worker (Opus 5.5, high) |
 | `nateclaude/agents/nateclaude-bulldozer.md` | Bounded unblock / milestone reviewer (Opus 5.5, high) |
 

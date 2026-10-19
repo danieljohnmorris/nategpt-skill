@@ -13,7 +13,7 @@ The rules below are the same as `nategpt`; only the roles and model strings diff
 ## Installed roles
 
 - Main: planner and final reporter. Start a fresh session on `anthropic/claude-opus-5.5` for this workflow. If Main uses another model, disclose that and ask the user to select it before claiming the exact workflow is active.
-- `nateclaude-coordinator`: `anthropic/claude-sonnet-5.5:medium`, persistent coordinator.
+- `nateclaude-coordinator`: `anthropic/claude-opus-5.5:medium`, persistent coordinator.
 - `nateclaude-worker`: `anthropic/claude-opus-5.5:high`, fresh implementation worker.
 - `nateclaude-bulldozer`: `anthropic/claude-opus-5.5:high`, bounded unblock or milestone review.
 
