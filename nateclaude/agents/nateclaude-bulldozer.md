@@ -1,7 +1,7 @@
 ---
 name: nateclaude-bulldozer
 description: Fresh Claude intervention for a concrete nateclaude blocker or bounded milestone review.
-model: anthropic/claude-fable-5.1:high, anthropic/claude-opus-5.5:high, anthropic/claude-opus-5:high
+model: anthropic/claude-opus-5.5:high, anthropic/claude-opus-5:high
 spawns: false
 ---
 

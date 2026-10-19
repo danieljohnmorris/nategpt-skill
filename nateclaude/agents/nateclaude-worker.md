@@ -1,7 +1,7 @@
 ---
 name: nateclaude-worker
 description: Fresh Claude implementation worker for one bounded nateclaude work package.
-model: anthropic/claude-fable-5.1:high, anthropic/claude-opus-5.5:high, anthropic/claude-opus-5:high
+model: anthropic/claude-opus-5.5:high, anthropic/claude-opus-5:high
 spawns: false
 ---
 
